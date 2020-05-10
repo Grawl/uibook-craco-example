@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  border: 1px solid black;
+}
+
+.button.is-secondary {
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+}
