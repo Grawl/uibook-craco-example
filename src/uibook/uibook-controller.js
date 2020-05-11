@@ -3,7 +3,7 @@ import UibookStarter from 'uibook/starter'
 import ButtonUibook from './button.uibook'
 
 export default UibookStarter({
-  wrapper: (children, props) => ({ children }),
+  wrapper: (children, props) => ([children]),
   values: {
     locale: ['en'],
     theme: ['light', 'dark']

@@ -1,5 +1,6 @@
+import React from 'react'
 import UibookCase from 'uibook/case'
-import Button from '../src/components/button.js'
+import Button from '../components/button'
 
 const ButtonUibook = {
   component: Button,
